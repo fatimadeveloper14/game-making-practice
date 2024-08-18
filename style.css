@@ -1,0 +1,84 @@
+/* Starting CSS */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Rubik", sans-serif;
+	background-color: #e78170;
+	/* color: #fff; */
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReEVngcqiiX816b8pDjY7lOXvlIqe7n5prQQ&s);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2 {
+	margin-bottom: 2.2rem;
+	font-size: 1.8rem;
+}
+
+/* body styling */
+main {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container {
+	width: 60%;
+	background-color: skyblue;
+	margin: 0 auto;
+	padding: 40px 50px;
+	border-radius: 20px;
+}
+
+.rows-box {
+	display: grid;
+	gap: 1.4rem;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 20px 20px;
+	width: 100%;
+	font-size: 1.3rem;
+	background-color: rgb(52, 250, 151);
+	border-radius: 10px;
+}
+
+.row input[type="radio"],
+.row label {
+	cursor: pointer;
+}
+
+.row label {
+	width: 100%;
+}
+
+.btn {
+	width: 100%;
+	padding: 20px;
+	background-color: burlywood;
+	color: 071952;
+	font-weight: 600;
+	border: none;
+	margin-top: 25px;
+	font-size: 1.3rem;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.container .btn:hover {
+	background-color: palevioletred;
+	color: black;
+  }
+
+/* End CSS */
